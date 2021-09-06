@@ -13,6 +13,7 @@
   "author": "Academlo",
   "license": "ISC",
   "dependencies": {
-    "jest": "^27.0.6"
+    "jest": "^27.1.0",
+    "modules": "^0.4.0"
   }
 }
