@@ -1,5 +1,12 @@
 function mcm (a, b) {
-  return 0;
+  let ans=a*b/mcd(a,b);
+  return ans;
+
+}
+
+function mcd(a,b) {
+  let ans=(b==0)?a:mcd(b, a%b)
+  return ans;
 }
 
 module.exports = mcm;
